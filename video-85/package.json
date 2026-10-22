@@ -1,0 +1,20 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "this is the sptify clone for my app",
+  "keywords": [
+    "spotify"
+  ],
+  "license": "ISC",
+  "author": "om",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "slugify": "^1.6.9"
+  }
+}
